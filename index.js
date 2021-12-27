@@ -3,7 +3,7 @@ require('./website')
 const bot = new aoijs.Bot({
   mobile: false, 
 	intents : "all",
-  token: "OTIwOTY5ODg2NjQ0MTc4OTY1.YbsGCw.YzOM6l3TJXNCAdCeh1ESk_a3ATw",
+  token: "{your bot token}",
   prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>']
 })
 
@@ -14,14 +14,14 @@ bot.readyCommand({
 })
 
 bot.status({
-        text: "K!help",
+        text: "Discord-Bot Github",
         type: "WATCHING",
         status: "online",
         time: 12 
     })
 
     bot.status({
-        text: "$serverCount Server Keren!",    
+        text: "$serverCount By Discord-Bot",    
         type: "WATCHING",
         status: "online",
         time: 12
