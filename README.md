@@ -7,8 +7,7 @@ Start new coding with go to index.js and complete
 token: {Your bot token} 
 
 Rename Your bot status with
-`bot.status
-  text: "{Your bot status}",
+`bot.status.                                             text: "{Your bot status}",
   type: "WATCHING",
   status: "online"
   time: 12`
